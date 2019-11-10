@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Pinterested</title>
+    <title>Pinterested</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -12,10 +12,7 @@
 
   	<%= link_to 'Home', root_path %>
     <%= link_to 'About', home_about_path %>
-    <%= render 'home/header' %>
 
-    <div class="container">
       <%= yield %>
-    </div>
   </body>
 </html>
